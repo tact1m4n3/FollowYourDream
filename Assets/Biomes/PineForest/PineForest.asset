@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6613ab6c7a3bcc947882f3d38efb7b23, type: 3}
+  m_Name: PineForest
+  m_EditorClassIdentifier: 
+  noiseScale: 35
+  persistance: 0.11
+  lacunarity: 7
+  meshHeightMultiplier: 12
+  meshHeightCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.13755074
+      value: 0.45906058
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  regions:
+  - name: Sand
+    height: 0
+    color: {r: 0.8562934, g: 0.874, b: 0.395922, a: 1}
+  - name: Storne
+    height: 0.2
+    color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  - name: Grass
+    height: 1
+    color: {r: 0.1949681, g: 0.447, b: 0.18070213, a: 1}
+  props:
+  - name: PineTree1
+    minHeight: 0.4
+    maxHeight: 10
+    chance: 3
+    amount: 400
+    noiseHeight: 0.87
+    heightOffset: -0.2
+    prefab: {fileID: 2267831296168742347, guid: 32906e3c3d3481144b39c82a307d65b2, type: 3}
+  - name: PineTree2
+    minHeight: 0.4
+    maxHeight: 10
+    chance: 1
+    amount: 500
+    noiseHeight: 0.88
+    heightOffset: -0.2
+    prefab: {fileID: 4540432238729094945, guid: d4e64ef3a1a02b5459c0ae22ca430c12, type: 3}
+  - name: PineTree3
+    minHeight: 0.4
+    maxHeight: 10
+    chance: 1
+    amount: 500
+    noiseHeight: 0.56
+    heightOffset: -0.2
+    prefab: {fileID: 3989013280398708782, guid: e89b4779ce87eb64a870aedd25cb3f88, type: 3}
+  - name: Rock1
+    minHeight: 0.1
+    maxHeight: 0.3
+    chance: 15
+    amount: 500
+    noiseHeight: 0.62
+    heightOffset: -0.2
+    prefab: {fileID: 6810879825189568910, guid: d7cf0ef025fd1454fa5110d6786dcf2a, type: 3}
+  - name: Rock2
+    minHeight: 0.1
+    maxHeight: 0.2
+    chance: 15
+    amount: 500
+    noiseHeight: 0.81
+    heightOffset: -0.2
+    prefab: {fileID: 478222568704254750, guid: bcd9391118b3e7a4fb62965446f5c32d, type: 3}
+  - name: Rock3
+    minHeight: 0.1
+    maxHeight: 0.2
+    chance: 15
+    amount: 500
+    noiseHeight: 0.65999997
+    heightOffset: -0.2
+    prefab: {fileID: 6534535986041798187, guid: 91affaafd8244a24895fe0c274f97fc8, type: 3}
+  - name: Pebble1
+    minHeight: 0.4
+    maxHeight: 10
+    chance: 1
+    amount: 200
+    noiseHeight: 0.84999996
+    heightOffset: 0
+    prefab: {fileID: 632609872254259671, guid: 8d00693fbf3a1434ab0a5d0241e8a2db, type: 3}
+  - name: Pebble2
+    minHeight: 0.4
+    maxHeight: 10
+    chance: 1
+    amount: 200
+    noiseHeight: 0.84999996
+    heightOffset: -0.02
+    prefab: {fileID: 1599730430517876642, guid: c9de358ec704ee14fb1aa8293aa61446, type: 3}
+  - name: Mushroom1
+    minHeight: 0.5
+    maxHeight: 10
+    chance: 1
+    amount: 200
+    noiseHeight: 0.78999996
+    heightOffset: -0.02
+    prefab: {fileID: 2433301160005173057, guid: d9a0bfba2b1314b4092d4be5c1338fbf, type: 3}
+  - name: Mushroom2
+    minHeight: 0.5
+    maxHeight: 10
+    chance: 1
+    amount: 200
+    noiseHeight: 0.87
+    heightOffset: -0.02
+    prefab: {fileID: 3055154938958831723, guid: 104cddc1cb97d7b41aa100a47992e065, type: 3}
+  - name: Grass
+    minHeight: 0.5
+    maxHeight: 10
+    chance: 12
+    amount: 500
+    noiseHeight: 0.83
+    heightOffset: 0
+    prefab: {fileID: 100000, guid: cdbbe2a319c5934488c7972af0a53c68, type: 3}
