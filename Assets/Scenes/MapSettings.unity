@@ -2453,7 +2453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4a1aaa07e40c4609a1dc6ff3c9db4a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mapMaterial: {fileID: 2100000, guid: bb50d683f10194e93af2be037e06c6d0, type: 2}
+  mapMaterial: {fileID: 2100000, guid: 05a0177e4d9b68f4c83ad311a6d78c69, type: 2}
 --- !u!114 &2076426702
 MonoBehaviour:
   m_ObjectHideFlags: 0
