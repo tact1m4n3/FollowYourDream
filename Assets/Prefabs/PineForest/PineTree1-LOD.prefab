@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2267831296168742344}
   - component: {fileID: 7907960474555148978}
-  - component: {fileID: 2262075778586946143}
   m_Layer: 0
   m_Name: PineTree1-LOD
   m_TagString: Untagged
@@ -46,20 +45,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.3749746, y: 3.676148, z: 0.3393858}
   m_Center: {x: -0.0014466643, y: 2.0031679, z: 0.0127891}
---- !u!136 &2262075778586946143
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2267831296168742347}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  m_Radius: 0.14
-  m_Height: 6
-  m_Direction: 1
-  m_Center: {x: 0, y: 3, z: 0}
 --- !u!1001 &2900430193658918040
 PrefabInstance:
   m_ObjectHideFlags: 0
