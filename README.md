@@ -1,5 +1,5 @@
 # FollowYourDream
-## _Explore beautiful new worlds_
+> _Explore beautiful new worlds_
 
 ## Try It
 > Playing our game is a few clicks away
