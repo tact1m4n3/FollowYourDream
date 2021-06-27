@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public GameObject menu;
 
-    [System.NonSerialized]
+    [HideInInspector]
     public bool isMenu = false;
 
     // Start is called before the first frame update

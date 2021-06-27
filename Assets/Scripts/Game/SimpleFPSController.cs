@@ -19,9 +19,12 @@ public class SimpleFPSController: MonoBehaviour
     [HideInInspector]
     public bool canMove = true;
 
+    GameManager gameManager;
+
     void Start()
     {
         characterController = GetComponent<CharacterController>();
+        gameManager = GameObject.FindGameObjectWithTag("MapGenerator").GetComponent<GameManager>();
 
         // Lock cursor
         Cursor.lockState = CursorLockMode.Locked;
@@ -61,7 +64,7 @@ public class SimpleFPSController: MonoBehaviour
         characterController.Move(moveDirection * Time.deltaTime);
 
         // Player and Camera rotation
-        if (canMove)
+        if (canMove && !gameManager.isMenu)
         {
             rotationX += -Input.GetAxis("Mouse Y") * lookSpeed;
             rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);

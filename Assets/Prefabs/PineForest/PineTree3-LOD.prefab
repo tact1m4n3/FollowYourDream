@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 16
   m_IsActive: 1
 --- !u!4 &1203243476319779360
 Transform:
@@ -96,13 +96,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5126987919994789147, guid: 3528aa4480121e14aa29ea8eed8e4898, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: -3022659371083868306, guid: 3528aa4480121e14aa29ea8eed8e4898, type: 3}
       propertyPath: m_Name
       value: branch_LOD1
       objectReference: {fileID: 0}
+    - target: {fileID: -3022659371083868306, guid: 3528aa4480121e14aa29ea8eed8e4898, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: -121316006452407169, guid: 3528aa4480121e14aa29ea8eed8e4898, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 735267908793309517, guid: 3528aa4480121e14aa29ea8eed8e4898, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3528aa4480121e14aa29ea8eed8e4898, type: 3}
       propertyPath: m_Name
       value: PineTree3-LOD
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3528aa4480121e14aa29ea8eed8e4898, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 4742473837712756890, guid: 3528aa4480121e14aa29ea8eed8e4898, type: 3}
       propertyPath: m_LODs.Array.data[0].screenRelativeHeight
@@ -111,6 +131,14 @@ PrefabInstance:
     - target: {fileID: 4742473837712756890, guid: 3528aa4480121e14aa29ea8eed8e4898, type: 3}
       propertyPath: m_LODs.Array.data[1].screenRelativeHeight
       value: 0.195514
+      objectReference: {fileID: 0}
+    - target: {fileID: 5097261995482076522, guid: 3528aa4480121e14aa29ea8eed8e4898, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 9189389855396228065, guid: 3528aa4480121e14aa29ea8eed8e4898, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3528aa4480121e14aa29ea8eed8e4898, type: 3}
