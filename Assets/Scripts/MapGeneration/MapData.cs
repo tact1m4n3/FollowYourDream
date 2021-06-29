@@ -4,6 +4,6 @@ using UnityEngine;
 
 public static class MapData
 {
-    public static int seed = 6;
-    public static string biomeName = "Default";
+    public static int seed = 0;
+    public static string biomeName = "PineForest";
 }
