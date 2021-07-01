@@ -15,6 +15,8 @@ public class Biome : ScriptableObject
     public float meshHeightMultiplier = 10f;
     public AnimationCurve meshHeightCurve = AnimationCurve.Linear(0f, 0f, 1f, 1f);
 
+    public AudioClip sound;
+
     public TerrainType[] regions;
     public PropType[] props;
 

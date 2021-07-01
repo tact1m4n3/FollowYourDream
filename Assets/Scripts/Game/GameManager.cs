@@ -40,6 +40,15 @@ public class GameManager : MonoBehaviour
         }
     }
 
+
+    public void GoToMainMenu()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;
+
+        SceneManager.LoadScene("MainMenu");
+    }
+
     public void GoToMapSettings()
     {
         Cursor.lockState = CursorLockMode.Confined;

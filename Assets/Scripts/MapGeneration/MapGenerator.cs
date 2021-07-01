@@ -44,6 +44,8 @@ public class MapGenerator : MonoBehaviour
     public string biomeName;
     public Biome[] biomes;
 
+    public AudioSource audioSource;
+
     private Biome biome;
 
     private void Start()
@@ -97,6 +99,8 @@ public class MapGenerator : MonoBehaviour
         }
         else if (drawMode == DrawMode.Mesh)
         {
+            audioSource.clip = biome.sound;
+
             display.DrawMesh(MeshGenerator.GenerateTerrainMesh(noiseMap, biome.meshHeightMultiplier, biome.meshHeightCurve, levelOfDetail),
                              PropGenerator.GenerateProps(biome.props, seed, biome.meshHeightMultiplier, biome.meshHeightCurve, propsNoiseMap, noiseMap),
                              TextureGenerator.TexFromColorMap(colorMap, mapChunkSize, mapChunkSize));

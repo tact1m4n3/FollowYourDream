@@ -13,10 +13,6 @@ public class MainMenuManager : MonoBehaviour
     void Start()
     {
         SettingsPanel.SetActive(false);
-
-        mapGenerator = GetComponent<MapGenerator>();
-
-        mapGenerator.GenerateMap();
     }
 
     // Update is called once per frame
