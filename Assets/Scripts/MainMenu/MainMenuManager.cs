@@ -9,7 +9,6 @@ public class MainMenuManager : MonoBehaviour
     bool settingsOn = false;
     public GameObject SettingsPanel;
 
-    // Start is called before the first frame update
     void Start()
     {
         SettingsPanel.SetActive(false);
@@ -19,12 +18,18 @@ public class MainMenuManager : MonoBehaviour
         mapGenerator.GenerateMap();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.G))
-            SceneManager.LoadScene("MapSettings");
+
     }
+
+    public void ToggleFullscreen(bool is_fullscreen)
+    {
+        Screen.fullScreen = is_fullscreen;
+        
+    }
+
+    //Main Menu Stuff
     public void Play()
     {
         SceneManager.LoadScene("MapSettings");
