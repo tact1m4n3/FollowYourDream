@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MainMenuManager : MonoBehaviour
 {
     private MapGenerator mapGenerator;
     bool settingsOn = false;
     public GameObject SettingsPanel;
+    public Slider sensitivitySlider;
 
     void Start()
     {
@@ -16,13 +18,19 @@ public class MainMenuManager : MonoBehaviour
 
     void Update()
     {
+        
+    }
 
+    public void ToggleFog(bool is_fog)
+    {
+        RenderSettings.fog = is_fog;
+        Debug.Log("ToggledFog: " + is_fog);
     }
 
     public void ToggleFullscreen(bool is_fullscreen)
     {
         Screen.fullScreen = is_fullscreen;
-        
+        Debug.Log("ToggledFulscreen: " + is_fullscreen);
     }
 
     //Main Menu Stuff
