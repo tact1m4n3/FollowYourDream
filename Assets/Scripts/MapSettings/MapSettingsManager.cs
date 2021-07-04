@@ -47,4 +47,9 @@ public class MapSettingsManager : MonoBehaviour
         mapGenerator.seed = MapData.seed;
         mapGenerator.biomeName = MapData.biomeName;
     }
+
+    public void Back()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 }
