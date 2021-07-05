@@ -40,7 +40,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  sound: {fileID: 0}
+  sound: {fileID: 8300000, guid: 15f2fff869df1ef4a92c2a404fe51d3e, type: 3}
   regions:
   - name: Sand
     height: 0.3

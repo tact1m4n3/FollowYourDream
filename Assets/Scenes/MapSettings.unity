@@ -618,7 +618,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Default
+  m_Text: PalmBeach
 --- !u!222 &432488342
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -717,7 +717,9 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Default
+    - m_Text: PalmBeach
+      m_Image: {fileID: 0}
+    - m_Text: OakForest
       m_Image: {fileID: 0}
     - m_Text: PineForest
       m_Image: {fileID: 0}
@@ -2996,6 +2998,7 @@ MonoBehaviour:
   biomeName: PineForest
   biomes:
   - {fileID: 11400000, guid: 990c49e185a8cc8418b2a7d90ff4a797, type: 2}
+  - {fileID: 11400000, guid: 43666089c9dcdc24cac54f8f03753aeb, type: 2}
   - {fileID: 11400000, guid: 78c7f1302165d88479bcdc0a2c44d338, type: 2}
   audioSource: {fileID: 1117746820}
 --- !u!114 &2076426703

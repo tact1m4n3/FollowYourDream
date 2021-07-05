@@ -30,10 +30,10 @@ public class MapDisplay : MonoBehaviour
         meshFilter.sharedMesh = mesh;
         meshCollider.sharedMesh = mesh;
 
-        UpdateMapMat(tex);
+        // UpdateMapMat(tex);
 
-        meshRenderer.material = mapMaterial;
-        meshRenderer.sharedMaterial = mapMaterial;
+        meshRenderer.material.mainTexture = tex;
+        meshRenderer.sharedMaterial.mainTexture = tex;
 
         var children = new List<GameObject>();
         foreach (Transform child in currentMesh.transform) children.Add(child.gameObject);
