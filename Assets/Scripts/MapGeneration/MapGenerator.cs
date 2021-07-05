@@ -100,6 +100,7 @@ public class MapGenerator : MonoBehaviour
         else if (drawMode == DrawMode.Mesh)
         {
             audioSource.clip = biome.sound;
+            audioSource.Play();
 
             display.DrawMesh(MeshGenerator.GenerateTerrainMesh(noiseMap, biome.meshHeightMultiplier, biome.meshHeightCurve, levelOfDetail),
                              PropGenerator.GenerateProps(biome.props, seed, biome.meshHeightMultiplier, biome.meshHeightCurve, propsNoiseMap, noiseMap),
